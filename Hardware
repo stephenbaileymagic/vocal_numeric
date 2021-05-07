@@ -1,0 +1,6 @@
+The following lists hardware used in the creation of this project:
+
+Arduino Nano 33 BLE Sense - https://store.arduino.cc/usa/nano-33-ble-sense
+74HC595 shift register - https://www.ti.com/lit/ds/scls041i/scls041i.pdf?ts=1620393078435&ref_url=https%253A%252F%252Fwww.google.com%252F
+5161AS 7 segment LED - http://www.xlitx.com/datasheet/5161AS.pdf
+330 Ohm resistors
