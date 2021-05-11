@@ -1,1 +1,14 @@
 This project will use responsible AI practices in its creation and execution. This document will be home for the thoughts and considerations on this topic.
+
+
+In the TinyML edX course it is recommended to consider Human Centered Design when creating any ML application.
+The Human Centered Design frame work consists in part of several questions to consider when begining the design process. These questions will be addressed below.
+
+1. What am I building?
+ - A utility component using keyword recognition of numbers which can be incorporated into devices which require numerical input providing additional functionality.
+ 
+2. Who am I building this for?
+ - As a utility device this is intended to be useful to as many people as possible. Current number input devices can be used by most people so it must be at least this useful. If this works well it may provide additional utility to those who have issues with current input devices such as those who have trouble with their sight or dexterity. However, until this device can be proven in the field, it cannot guarantee utility beyond current applications of the device to which it is incorporated.
+ 
+ 3. What are the consequences if this device fails?
+  - As this is not intended to be the sole input device of a system the cost of failure will not be highly significant to the user, an annoyance at worst. The device will be optimized to favor false negatives rather than false positives as it is believed that it is less annoying to say a number twice rather than have the device input the incorrect digit and have to edit the input.
