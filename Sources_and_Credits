@@ -1,3 +1,20 @@
 The following are the sources of information used in this project:
 
 Initial arduino code and circuit design - https://create.arduino.cc/projecthub/akarsh98/controlling-7-segment-display-using-arduino-and-74hc595-52f09c
+
+
+speech_commands dataset by Pete Warden et. al.:
+```
+@article{speechcommandsv2,
+   author = {{Warden}, P.},
+    title = "{Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1804.03209},
+ primaryClass = "cs.CL",
+ keywords = {Computer Science - Computation and Language, Computer Science - Human-Computer Interaction},
+     year = 2018,
+    month = apr,
+    url = {https://arxiv.org/abs/1804.03209},
+}
+```
