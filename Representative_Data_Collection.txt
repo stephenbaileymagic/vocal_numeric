@@ -1,0 +1,9 @@
+In order to make the vocal_numeric as robust as possible, additional data will be collected and added to the current data taken from the public data sets.
+
+The data will be collected using an iPhone and then preprocessed locally before being added to  the data already in Edge Impulse.
+
+The thrust of this data collection will be to include additional samples from under-represented communities thereby making the device as accessible as possible.
+
+To achieve this, I will connect with local community organizations to present a discussion of why I think this is important, provide them with examples of what I am doing and how it will work, and request their help in reaching people who may not have ever heard of this type of thing or who may be skeptical. By reaching out to established organizations, I will be able to reach a greater number of people with greater credibility. 
+
+As this is my first attempt to engage in this sort of data collection, I will attempt to use best practices outlined in the edX course, and I expect I will learn a lot about the real-world issues in accomplishing this task.
