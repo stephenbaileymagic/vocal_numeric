@@ -16,3 +16,10 @@ I am hopeful to also add examples of additional functionality which may be possi
 
 Thanks go to Vijay Reddi and the entire staff of the TinyML Edx course for providing the opportunity to participate in this competition.
 
+*****
+A video walk through of the code and a look at the circuit in action can be found here:
+
+https://youtu.be/7nLewoXX2iw
+
+*****
+
