@@ -12,3 +12,9 @@ The Human Centered Design frame work consists in part of several questions to co
  
  3. What are the consequences if this device fails?
   - As this is not intended to be the sole input device of a system the cost of failure will not be highly significant to the user, an annoyance at worst. The device will be optimized to favor false negatives rather than false positives as it is believed that it is less annoying to say a number twice rather than have the device input the incorrect digit and have to edit the input.
+  
+  
+The application phase of Human Centered Design introduces new questions which must be carefully considered in the creation of the device.
+
+4. What data will be collected to train the model?
+ - This project will use a hybrid approach using both publicly available data sets and data collected specifically for this project. This newly collected data will be similar to the public data sets in nature, but I must always consider the issues of anonymization, consent for use of the data and my data retention strategy to make sure nothing I'm doing in this project can have an unintended negative impact on the people who are helping me out. The fact that I am attempting to include under represented communities to make my project more robust and accessible make this especially important.
