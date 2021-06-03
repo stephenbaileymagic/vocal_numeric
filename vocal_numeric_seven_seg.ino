@@ -196,7 +196,7 @@ void loop()
          }
          if (strcmp(result.classification[ix].label, "unknown") == 0 && result.classification[ix].value >= 0.7) {
             digitalWrite(latchPin, LOW); 
-            shiftOut(dataPin, clockPin, MSBFIRST, 128); 
+            shiftOut(dataPin, clockPin, MSBFIRST, 62); 
             digitalWrite(latchPin, HIGH); 
          }
         }
