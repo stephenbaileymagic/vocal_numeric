@@ -1,6 +1,7 @@
 The following are the sources of information used in this project:
 
 Initial arduino code and circuit design - https://create.arduino.cc/projecthub/akarsh98/controlling-7-segment-display-using-arduino-and-74hc595-52f09c
+This has since been modified for this project by Stephen Bailey.
 
 
 speech_commands dataset by Pete Warden et. al.:
@@ -18,3 +19,7 @@ archivePrefix = "arXiv",
     url = {https://arxiv.org/abs/1804.03209},
 }
 ```
+
+Mozilla Common Voice single word dataset:
+cv-corpus-6.1-singleword provided by the Mozilla foundation
+this dataset is licenced under the terms of the Creative Commons CC0 license (https://creativecommons.org/publicdomain/zero/1.0/)
