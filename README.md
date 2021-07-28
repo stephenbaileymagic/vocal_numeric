@@ -21,6 +21,10 @@ A video walk through of the code and a look at the circuit in action can be foun
 
 https://youtu.be/7nLewoXX2iw
 
+A video of some potential use case ideas can be found here:
+
+https://youtu.be/ypwxHSKO0_o
+
 *****
 The code in this github is intended for use on an Arduino Nano 33 BLE Sense as we used in the class, but the model code is available for many other platforms via my public Edge Impulse project here:
 
