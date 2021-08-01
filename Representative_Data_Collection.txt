@@ -12,4 +12,6 @@ UPDATE 07/25/2021 -
 
 I was correct that I would learn about real world issues in this effort. The community group which I was hoping to work with has had a change in leadership and I will no longer be able to coordinate a voice recording drive with them. This is dissapointing as I was sincerely hopeful to do some in person data collection among under represented members of my local community.
 
-Due to this cercumstance, the model for this project currently includes only recordings from the speech_commands dataset and the common_voice datasets along with the additional noise and background recordings which I have made. I hope to include more voice recordings captured by myself in future iterations of this project.
+Due to this circumstance, the model for this project currently includes only recordings from the speech_commands dataset and the common_voice datasets along with the additional noise and background recordings which I have made. I hope to include more voice recordings captured by myself in future iterations of this project.
+
+
