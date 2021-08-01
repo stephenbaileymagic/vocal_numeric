@@ -20,10 +20,12 @@ archivePrefix = "arXiv",
 }
 ```
 
-Mozilla Common Voice single word dataset:
+Additional audio samples used from Mozilla Common Voice single word dataset:
 cv-corpus-6.1-singleword provided by the Mozilla foundation
 this dataset is licenced under the terms of the Creative Commons CC0 license (https://creativecommons.org/publicdomain/zero/1.0/)
 
+
+Additional noise samples used from Microsoft Noisy Speech Dataset:
 @article{reddy2019scalable,
   title={A Scalable Noisy Speech Dataset and Online Subjective Test Framework},
   author={Reddy, Chandan KA and Beyrami, Ebrahim and Pool, Jamie and Cutler, Ross and Srinivasan, Sriram and Gehrke, Johannes},
