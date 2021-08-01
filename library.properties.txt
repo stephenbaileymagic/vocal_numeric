@@ -1,9 +1,0 @@
-name=vocal_numeric Inferencing - Edge Impulse
-version=1.0.2
-author=EdgeImpulse Inc. <hello@edgeimpulse.com>
-maintainer=EdgeImpulse Inc. <hello@edgeimpulse.com>
-sentence=Arduino library for running machine learning models
-paragraph=This library contains the signal processing code and machine learning models to classify real-world data for vocal_numeric. It has examples for using the serial monitor to see inferences and for using a shift register/7 segment LED circuit.
-category=Data processing
-url=https://www.edgeimpulse.com
-depends=Arduino_LSM9DS1, PDM

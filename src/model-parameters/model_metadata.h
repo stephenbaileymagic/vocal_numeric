@@ -44,8 +44,8 @@
 #define EI_CLASSIFIER_PROJECT_ID                 31878
 #define EI_CLASSIFIER_PROJECT_OWNER              "Stephen"
 #define EI_CLASSIFIER_PROJECT_NAME               "vocal_numeric"
-#define EI_CLASSIFIER_PROJECT_DEPLOY_VERSION     2
-#define EI_CLASSIFIER_NN_INPUT_FRAME_SIZE        650
+#define EI_CLASSIFIER_PROJECT_DEPLOY_VERSION     6
+#define EI_CLASSIFIER_NN_INPUT_FRAME_SIZE        800
 #define EI_CLASSIFIER_RAW_SAMPLE_COUNT           16000
 #define EI_CLASSIFIER_RAW_SAMPLES_PER_FRAME      1
 #define EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE       (EI_CLASSIFIER_RAW_SAMPLE_COUNT * EI_CLASSIFIER_RAW_SAMPLES_PER_FRAME)
@@ -61,11 +61,11 @@
 #define EI_CLASSIFIER_OBJECT_DETECTION           0
 
 
-#define EI_CLASSIFIER_TFLITE_ARENA_SIZE          22854
+#define EI_CLASSIFIER_TFLITE_ARENA_SIZE          8128
 #define EI_CLASSIFIER_TFLITE_INPUT_DATATYPE      EI_CLASSIFIER_DATATYPE_INT8
 #define EI_CLASSIFIER_TFLITE_INPUT_QUANTIZED     1
-#define EI_CLASSIFIER_TFLITE_INPUT_SCALE         0.05148937180638313
-#define EI_CLASSIFIER_TFLITE_INPUT_ZEROPOINT     6
+#define EI_CLASSIFIER_TFLITE_INPUT_SCALE         0.003844975493848324
+#define EI_CLASSIFIER_TFLITE_INPUT_ZEROPOINT     -128
 #define EI_CLASSIFIER_TFLITE_OUTPUT_DATATYPE     EI_CLASSIFIER_DATATYPE_INT8
 #define EI_CLASSIFIER_TFLITE_OUTPUT_QUANTIZED    1
 #define EI_CLASSIFIER_TFLITE_OUTPUT_SCALE        0.00390625
@@ -136,6 +136,7 @@ typedef struct {
     int low_frequency;
     int high_frequency;
     int win_size;
+    int noise_floor_db;
 } ei_dsp_config_mfe_t;
 
 typedef struct {
@@ -163,6 +164,7 @@ typedef struct {
     float frame_length;
     float frame_stride;
     int fft_length;
+    int noise_floor_db;
     bool show_axes;
 } ei_dsp_config_spectrogram_t;
 
@@ -179,19 +181,19 @@ typedef struct {
     bool invert_features;
 } ei_dsp_config_audio_syntiant_t;
 
-ei_dsp_config_mfcc_t ei_dsp_config_3 = {
-    2,
+uint8_t ei_dsp_config_7_axes[] = { 0 };
+const uint32_t ei_dsp_config_7_axes_size = 1;
+ei_dsp_config_mfe_t ei_dsp_config_7 = {
+    3,
     1,
-    13,
-    0.02000f,
-    0.02000f,
-    36,
+    0.05000f,
+    0.05000f,
+    40,
     256,
-    101,
     300,
     0,
-    0.98000f,
-    1
+    101,
+    -72
 };
 
 #endif // _EI_CLASSIFIER_MODEL_METADATA_H_
