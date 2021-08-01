@@ -1,0 +1,14 @@
+Current Issues:
+08/01/2021
+Enclosure - 
+I had to scrap my old enclosure due to the switch from 9V power to 5 volt LiPo. I want to get a new enclosure together soon so I can continue to test the device in the real world. The videos currently use the old enclosure.
+
+
+07/26/2021
+False positives - This device should NOT be used in mission critical applications at this time. There are still occurrences of false positives in the real world results. These false positives are triggered by environmental noise, not by miscategorization of the intended keywords. I believe that in real application these can be minimized by adding environmental noise from the location of the intended application to the training set. Currently, I am using generic background noise which I believe is overweighted toward machine based noises.
+
+07/26/2021
+Created this document to keep track of issues I want to deal with.
+
+
+

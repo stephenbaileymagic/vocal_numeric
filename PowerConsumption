@@ -1,0 +1,21 @@
+Power Consumption:
+
+The following documents my efforts to 
+
+08/01/2021
+The experiment on 7/26 ran for 19.5 hours. This suggests that the circuit is using about 130 mW during always on inferencing. I have updated the model using the Edge Impulse Eon Tuner and I will run the experiment again to see how this impacts the power consumption if at all. I know there are many opportunities to make the Nano 33 BLE Sense itself run with lower power consumption including turning off peripherals not being used and using a 3.3V input, but I haven't been able to put the time into this yet. Stay tuned.
+
+
+
+07/26/2021
+Powered circuit at 1PM PDT with a fully charged 2500mAH lipo rechargeable power bank battery via the USB input on the Nano 33 BLE Sense. I will leave this on until the battery dies to attempt to get an idea of how long this circuit can run in an always on setting. I have revised the circuit and circuit diagram to reflect that the 9V power supply I was using has been taken out of the mix. The entire circuit is now powered from 5V input in to the Nano rather than the hybrid 5V 3.3V approach I was taking earlier. The 3.3V to the shift register is now powered by the Nano's 3.3V out pin.
+
+
+
+
+07/26/2021
+Powered circuit at 9AM PDT with fresh out of the package 9V battery to judge power consumption. I will leave this on until the battery dies to get an idea of how much power is being used.
+
+WARNING: The original circuit as published will NOT work in an always on setting. The original circuit described in this project failed after 3 hours causing the Nano 33 BLE Sense to shut down and not restart. The device is not damaged but the circuit must be entirely taken apart and reset to turn it back on. The cause of this is still under investigation and may be due to issues specific to my hardware, but on my desk it does NOT work.
+
+UPDATE- this test failed as described in the above warning.
