@@ -30,5 +30,7 @@ The code in this github is intended for use on an Arduino Nano 33 BLE Sense as w
 
 https://studio.edgeimpulse.com/public/31878/latest
 
+Please note that I am continuing to experiment with models and DSP on my Edge Impulse project so the latest version may not be the best performing version. Check the version number of the source code in this repository to see what I am currently using as my on-device standard.
+
 Many thanks to Edge Impulse for supporting this project with additional processing time on their servers. 
 
