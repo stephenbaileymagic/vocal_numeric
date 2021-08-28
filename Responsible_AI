@@ -24,3 +24,16 @@ The application phase of Human Centered Design introduces new questions which mu
   
   6. How will the data be stored/protected?
   - The voice data will be stored in two places. The first is my personal computer which only I have access to, and the second is on the Edge Impulse servers which is necessary for the creation of the model. The data is anonymous with only myself knowing who made the recordings assuming I recognize the voice. There will be no other identifiers associated with a specific recording. I am also considering deleting all of the data following the completion of this class project, however this will limit my ability to maintain/update the model in the future. Community feedback on this point is welcome.
+  
+  
+  In the deployment phase, additional considerations come in to play as the model gets out in to the real world:
+  
+  7. How will model drift be monitored?
+  - I am hopeful to continue to update this project as new versions of all of my source data are released, as well as taking advantage of updates to TensorFlow, and the Edge Impulse system. By using current versions of all of my components, I believe I can keep model drift to a minimum.
+  
+  8. How should security breaches be addressed?
+  - This device is intended to be a suppliment to a 10-digit keypad and should not prove to be a more significant attack vector than a keypad. The simplicity of the purpose for this device should make attacking it more trouble than using currently available attacks on keypads giving it a security level of "why bother to come up with a new attack." The model itself does not provide a more significant attack vector than the hardware already in use.
+  
+  9. How should the users privacy be protected?
+  - As with the security question, the simplicity of this device is the primary protection against privacy issues. There is no recording mechanism in the code, and the model is based on publicly available, anonymous data. Any privacy concerns will be with the hardware or the projects in which this device would be integrated. These issues are beyond my skills and are being worked on at a professional level by others.
+  
