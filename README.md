@@ -25,6 +25,9 @@ A video of some potential use case ideas can be found here:
 
 https://youtu.be/ypwxHSKO0_o
 
+An additional thought about multiple devices:
+
+https://youtu.be/wVpKenk4ujg
 *****
 The code in this github is intended for use on an Arduino Nano 33 BLE Sense as we used in the class, but the model code is available for many other platforms via my public Edge Impulse project here:
 
