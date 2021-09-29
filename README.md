@@ -1,6 +1,9 @@
 # vocal_numeric
 The vocal_numeric project is a hardware/software emulation of 10 digit numeric keypad functionality using voice commands. The project has been created to participate in the TinyML edX class project competition. 
 
+UPDATE 09/29/2021:
+Though the class project has ended, I am continuing to develop this system. Please be aware that the current version of vocal_numeric no longer matches the version submitted for the class project. 
+
 Goals:
 1. To maximize learning by using concepts and procedures from the TinyML EdX course in practical application
 2. To develop a utility device which combines hardware and ML voice command application software to emulate the function of a 10 digit keypad robustly and inexpensively
